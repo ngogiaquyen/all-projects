@@ -1,0 +1,128 @@
+.vocabulary-list-container {
+  padding: 20px;
+  max-width: 1200px;
+  margin: 0 auto;
+}
+
+.form-container {
+  background-color: white;
+  padding: 20px;
+  border-radius: 8px;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  margin-bottom: 20px;
+
+  h2 {
+    margin-top: 0;
+    margin-bottom: 20px;
+    color: #333;
+  }
+}
+
+.form-group {
+  display: grid;
+  grid-template-columns: repeat(2, 1fr);
+  gap: 15px;
+
+  input {
+    padding: 10px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    font-size: 14px;
+
+    &:focus {
+      outline: none;
+      border-color: #4a90e2;
+    }
+  }
+
+  .submit-button {
+    grid-column: 1 / -1;
+    padding: 10px;
+    background-color: #4a90e2;
+    color: white;
+    border: none;
+    border-radius: 4px;
+    cursor: pointer;
+    font-size: 14px;
+    transition: background-color 0.2s;
+
+    &:hover {
+      background-color: #357abd;
+    }
+  }
+}
+
+.vocabulary-table {
+  width: 100%;
+  border-collapse: collapse;
+  background-color: white;
+  box-shadow: 0 1px 3px rgba(0, 0, 0, 0.2);
+  border-radius: 8px;
+  overflow: hidden;
+}
+
+.vocabulary-table th,
+.vocabulary-table td {
+  padding: 12px 15px;
+  text-align: left;
+  border-bottom: 1px solid #eee;
+}
+
+.vocabulary-table th {
+  background-color: #f8f9fa;
+  font-weight: 600;
+  color: #333;
+}
+
+.vocabulary-table tr:hover {
+  background-color: #f5f5f5;
+}
+
+.vocabulary-table tr:last-child td {
+  border-bottom: none;
+}
+
+.edit-button,
+.delete-button {
+  padding: 6px 12px;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+  font-size: 12px;
+  margin-right: 8px;
+  transition: background-color 0.2s;
+}
+
+.edit-button {
+  background-color: #ffc107;
+  color: #000;
+
+  &:hover {
+    background-color: #e0a800;
+  }
+}
+
+.delete-button {
+  background-color: #dc3545;
+  color: white;
+
+  &:hover {
+    background-color: #c82333;
+  }
+}
+
+@media (max-width: 768px) {
+  .form-group {
+    grid-template-columns: 1fr;
+  }
+
+  .vocabulary-table {
+    display: block;
+    overflow-x: auto;
+  }
+  
+  .vocabulary-table th,
+  .vocabulary-table td {
+    min-width: 200px;
+  }
+} 

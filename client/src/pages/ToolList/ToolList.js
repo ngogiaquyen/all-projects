@@ -8,30 +8,6 @@ const cx = classNames.bind(styles);
 
 const tools = [
   {
-    name: "Máy tính",
-    description: "Tính toán nhanh gọn.",
-    icon: "🧮",
-    link: "/tools/calculator",
-  },
-  {
-    name: "Chuyển đổi đơn vị",
-    description: "Đổi kg ↔ gram, cm ↔ inch...",
-    icon: "⚖️",
-    link: "/tools/unit-converter",
-  },
-  {
-    name: "Tạo mật khẩu",
-    description: "Sinh mật khẩu ngẫu nhiên.",
-    icon: "🔐",
-    link: "/tools/password-generator",
-  },
-  {
-    name: "Nén ảnh",
-    description: "Tối ưu kích thước hình ảnh.",
-    icon: "🖼️",
-    link: "/tools/image-compressor",
-  },
-  {
     name: "Học tiếng anh",
     description: "Trang học tiếng anh.",
     icon: "✏️",

@@ -16,6 +16,7 @@ import TiktokShopPage from '~/pages/TiktokShopPage';
 import CreateProductPage from '~/pages/CreateProductPage/CreateProductPage';
 import EditProductPage from '~/pages/EditProductPage';
 import ProductDetailPage from '~/pages/ProductDetailPage';
+import VocabularyListPage from '~/pages/VocabularyListPage';
 
 export const publicRouters = [
   // home page
@@ -52,7 +53,7 @@ export const publicRouters = [
     layout: EmptyLayout,
   },
   {
-    component: Vocabulary,
+    component: VocabularyListPage,
     path: routes.vocabulary,
     layout: EmptyLayout,
   },
