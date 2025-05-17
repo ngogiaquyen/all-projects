@@ -17,6 +17,7 @@ import CreateProductPage from '~/pages/CreateProductPage/CreateProductPage';
 import EditProductPage from '~/pages/EditProductPage';
 import ProductDetailPage from '~/pages/ProductDetailPage';
 import VocabularyListPage from '~/pages/VocabularyListPage';
+import ExaminationPage from '~/pages/ExaminationPage';
 
 export const publicRouters = [
   // home page
@@ -101,6 +102,13 @@ export const publicRouters = [
   },
 
   // other page
+
+  
+  {
+    component: ExaminationPage,
+    path: routes.examination,
+    layout: EmptyLayout,
+  },
 ];
 
 export const privateRouters = [];

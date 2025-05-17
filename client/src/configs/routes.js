@@ -13,5 +13,6 @@ const routes = {
   createProduct: '/create-product',
   editProduct: '/edit-product',
   productDetail: '/product-detail',
+  examination: '/examination',
 };
 export default routes;
