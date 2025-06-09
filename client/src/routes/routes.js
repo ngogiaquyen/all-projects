@@ -18,11 +18,14 @@ import EditProductPage from '~/pages/EditProductPage';
 import ProductDetailPage from '~/pages/ProductDetailPage';
 import VocabularyListPage from '~/pages/VocabularyListPage';
 import ExaminationPage from '~/pages/ExaminationPage';
+import ThanhUyPage from '~/pages/ThanhUyPage';
+import TemplatePage from '~/pages/TemplatePage';
+import BuilderPage from '~/pages/BuilderPage';
 
 export const publicRouters = [
   // home page
   {
-    component: ToolList,
+    component: TemplatePage,
     path: routes.home,
     layout: EmptyLayout,
   },
@@ -107,6 +110,21 @@ export const publicRouters = [
   {
     component: ExaminationPage,
     path: routes.examination,
+    layout: EmptyLayout,
+  },
+  {
+    component: ThanhUyPage,
+    path: routes.thanhUy,
+    layout: EmptyLayout,
+  },
+  {
+    component: TemplatePage,
+    path: routes.template,
+    layout: EmptyLayout,
+  },
+  {
+    component: BuilderPage,
+    path: routes.pageBuider,
     layout: EmptyLayout,
   },
 ];

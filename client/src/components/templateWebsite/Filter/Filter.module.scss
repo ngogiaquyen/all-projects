@@ -1,0 +1,26 @@
+.filter {
+    background-color: #ffffff;
+    padding: 1.5rem;
+}
+
+.filter-content {
+    max-width: 128rem;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.search-input {
+    padding: 1rem 1.2rem;
+    border: 1px solid #e5e7eb;
+    border-radius: 0.4rem;
+    font-size: 1.1rem;
+    width: 100%;
+    max-width: 60rem;
+    outline: none;
+    transition: border-color 0.2s ease, box-shadow 0.2s ease;
+
+    &:focus {
+        border-color: #3b82f6;
+        box-shadow: 0 0 0 0.3rem rgba(59, 130, 246, 0.1);
+    }
+}

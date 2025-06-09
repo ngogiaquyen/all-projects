@@ -1,0 +1,33 @@
+.faq-item {
+    border-bottom: 1px solid #e5e7eb;
+    padding: 1.2rem 0;
+}
+
+.faq-question {
+    background: none;
+    border: none;
+    width: 100%;
+    text-align: left;
+    font-size: 1.1rem;
+    font-weight: 500;
+    color: #111827;
+    cursor: pointer;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    transition: color 0.2s ease;
+
+    &:hover {
+        color: #3b82f6;
+    }
+}
+
+.faq-toggle {
+    font-size: 1.2rem;
+}
+
+.faq-answer {
+    margin-top: 0.6rem;
+    color: #4b5563;
+    font-size: 1rem;
+}

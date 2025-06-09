@@ -1,0 +1,14 @@
+.main {
+    max-width: 128rem;
+    margin: 0 auto;
+    padding: 3rem 1rem;
+    display: flex;
+    gap: 2.5rem;
+}
+
+.grid {
+    flex-grow: 1;
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(24rem, 1fr));
+    gap: 2rem;
+}

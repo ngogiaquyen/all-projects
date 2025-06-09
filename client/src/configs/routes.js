@@ -14,5 +14,8 @@ const routes = {
   editProduct: '/edit-product',
   productDetail: '/product-detail',
   examination: '/examination',
+  thanhUy: '/thanh-uy',
+  template: '/template',
+  pageBuider: '/page-builder',
 };
 export default routes;
