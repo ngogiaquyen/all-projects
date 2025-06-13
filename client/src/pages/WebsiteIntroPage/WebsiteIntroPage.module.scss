@@ -1,0 +1,81 @@
+.intro-page {
+  font-size: 1.6rem; /* 1rem = 10px, so 1.6rem = 16px */
+}
+
+.hero {
+  background: linear-gradient(to bottom, #2563eb, #1e40af);
+}
+
+.hero-title {
+  font-size: 4rem;
+}
+
+.hero-subtitle {
+  font-size: 2rem;
+}
+
+.hero-cta {
+  transition: background-color 0.2s;
+  font-size: 1.8rem;
+}
+
+.features {
+  background-color: #f9fafb;
+}
+
+.section-title {
+  font-size: 3rem;
+}
+
+.feature-item {
+  transition: transform 0.2s, box-shadow 0.2s;
+  &:hover {
+    transform: translateY(-4px);
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+  }
+}
+
+.feature-title {
+  font-size: 2rem;
+}
+
+.feature-desc {
+  font-size: 1.4rem;
+}
+
+.about-image {
+  transition: transform 0.2s;
+  &:hover {
+    transform: scale(1.02);
+  }
+}
+
+.about-desc {
+  font-size: 1.6rem;
+}
+
+.about-cta {
+  transition: background-color 0.2s;
+  font-size: 1.6rem;
+}
+
+.cta-title {
+  font-size: 3rem;
+}
+
+.cta-desc {
+  font-size: 1.8rem;
+}
+
+.cta-button {
+  transition: background-color 0.2s;
+  font-size: 1.8rem;
+}
+
+.footer {
+  font-size: 1.4rem;
+}
+
+.footer-links a {
+  transition: color 0.2s;
+}

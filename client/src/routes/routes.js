@@ -21,6 +21,7 @@ import ExaminationPage from '~/pages/ExaminationPage';
 import ThanhUyPage from '~/pages/ThanhUyPage';
 import TemplatePage from '~/pages/TemplatePage';
 import BuilderPage from '~/pages/BuilderPage';
+import WebsiteIntroPage from '~/pages/WebsiteIntroPage';
 
 export const publicRouters = [
   // home page
@@ -125,6 +126,11 @@ export const publicRouters = [
   {
     component: BuilderPage,
     path: routes.pageBuider,
+    layout: EmptyLayout,
+  },
+  {
+    component: WebsiteIntroPage,
+    path: routes.intro,
     layout: EmptyLayout,
   },
 ];

@@ -17,5 +17,6 @@ const routes = {
   thanhUy: '/thanh-uy',
   template: '/template',
   pageBuider: '/page-builder',
+  intro: '/intro',
 };
 export default routes;
